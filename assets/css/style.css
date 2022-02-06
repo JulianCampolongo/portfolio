@@ -63,7 +63,7 @@ h1, h2, h3, h4, h5, h6 {
 #header {
   position: fixed;
   top: 0;
-  left: ;
+  left: 0;
   bottom: 0;
   width: 300px;
   transition: all ease-in-out 0.5s;
@@ -118,9 +118,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1199px) {
-  #header {
-    left: -300px;
-  }
+ 
 
   #main {
     margin-left: 0;
@@ -733,6 +731,7 @@ section {
 --------------------------------------------------------------*/
 .contact {
   padding-bottom: 130px;
+  
 }
 .contact .info {
   padding: 30px;
