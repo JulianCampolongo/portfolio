@@ -979,7 +979,7 @@ section {
   }
  
   .parrafo-inicio{
-    transform: translate(-190px);
+    transform: translate(190px);
   }
 
   #hero h1 {
@@ -991,6 +991,7 @@ section {
     font-size: 18px;
     line-height: 24px;
     margin-bottom: 30px;
+    
   }
 }
 
