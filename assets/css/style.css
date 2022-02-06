@@ -118,10 +118,20 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 1199px) {
- 
+  #header {
+    left: -300px;
+  }
+
+
 
   #main {
     margin-left: 0;
+  }
+}
+
+@media (min-width: 1200px) {
+  #header{
+    width: 300px;
   }
 }
 /*--------------------------------------------------------------
@@ -959,6 +969,28 @@ section {
     position: static;
     width: auto;
     padding-right: 20px 15px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #hero {
+    background-position-x: 300px;
+    background-position-y: -400px;
+  }
+ 
+  .parrafo-inicio{
+    transform: translate(-190px);
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    transform: translate(-220px);
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
   }
 }
 
