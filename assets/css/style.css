@@ -993,5 +993,9 @@ section {
     margin-bottom: 30px;
     
   }
+
+  .row{
+    width: 3200px;
+  }
 }
 
