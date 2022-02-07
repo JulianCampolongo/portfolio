@@ -997,5 +997,10 @@ section {
   #row2{
     width: 3200px;
   }
+
+  #aboutflex{
+    display: flex;
+    flex-direction: column;
+  }
 }
 
