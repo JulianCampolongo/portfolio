@@ -972,7 +972,7 @@ section {
   }
 }
 
-@media (min-width: 1200px) {
+@media (min-width: 991px) {
   #hero {
     background-position-x: 300px;
     background-position-y: -400px;
