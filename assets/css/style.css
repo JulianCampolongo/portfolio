@@ -1004,3 +1004,30 @@ section {
   }
 }
 
+@media (max-width: 1199px) and (min-width: 992px){
+  .parrafo-inicio{
+    transform: translate(0px);
+  }
+
+  #hero h1 {
+    font-size: 28px;
+    line-height: 36px;
+    transform: translate(85px);
+  }
+  #hero h2 {
+    font-size: 18px;
+    line-height: 24px;
+    margin-bottom: 30px;
+    
+  }
+
+  #row2{
+    width: 3200px;
+  }
+
+  #aboutflex{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
