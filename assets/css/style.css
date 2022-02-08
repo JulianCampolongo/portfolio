@@ -1002,11 +1002,16 @@ section {
     display: flex;
     flex-direction: column;
   }
+
+  .paddin{
+    padding-inline-end: 600px;
+    font-size: 20px;
+  }
 }
 
 @media (max-width: 992px) and (min-width: 1199){
-  .parrafo-inicio{
-    transform: translate(0px);
+  #hero p{
+    transform: translate(50px);
   }
 
   #hero h1 {
@@ -1029,5 +1034,14 @@ section {
     display: flex;
     flex-direction: column;
   }
+
+  .paddin{
+    padding-inline-end: 600px;
+    font-size: 20px;
+  }
 }
+
+
+
+
 
